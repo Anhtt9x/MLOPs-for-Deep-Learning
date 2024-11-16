@@ -1,0 +1,15 @@
+artifact_uri: file:///home/tuananh/MLOPs-for-Deep-Learning/mlruns/0/6e92675ac9dd4573be957a4aca1f6249/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6e92675ac9dd4573be957a4aca1f6249
+run_name: sedate-whale-549
+run_uuid: 6e92675ac9dd4573be957a4aca1f6249
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731747679146
+status: 1
+tags: []
+user_id: tuananh

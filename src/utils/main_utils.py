@@ -123,6 +123,7 @@ def decodeImage(imgstring, filename):
     imgdata = base64.b64decode(imgstring)
     with open(filename, 'wb') as f:
         f.write(imgdata)
+        
 
 def encodeImage(image_path):
     with open(image_path, "rb") as image_file:

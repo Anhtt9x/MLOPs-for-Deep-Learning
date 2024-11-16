@@ -1,0 +1,13 @@
+schema: '2.0'
+stages:
+  stage_01:
+    cmd: python pipeline/stage_01.py
+  stage_02:
+    cmd: python pipeline/stage_02.py
+  stage_03:
+    cmd: python pipeline/stage_03.py
+    deps:
+    - path: artifacts/text.txt
+      hash: md5
+      md5: d41d8cd98f00b204e9800998ecf8427e
+      size: 0
